@@ -1,0 +1,46 @@
+/* TEMA WARNA ASLI: UNGU/PINK */
+body { background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.login-wrapper {
+    background: linear-gradient(135deg,#FFFF00 0%,  #f8f9fa 100%);
+    position: fixed; width: 100%; height: 100%; z-index: 9999;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 380px;
+}
+
+.custom-input {
+    background: rgba(46, 39, 184, 0.9);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+}
+
+.btn-login {
+    background: #9b59b6;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-login:hover { background: #20B2AA; }
+
+.custom-navbar { background: linear-gradient(to right, #9b59b6, #e056fd) !important; }
+
+.candidate-card { transition: 0.3s; border-radius: 20px !important; }
+.candidate-card:hover { transform: translateY(-10px); }
+
+.vote-thumb {
+    width: 120px; height: 120px; object-fit: cover;
+    border: 4px solid #f1f1f1; transition: 0.3s;
+}
+
+#finishOverlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.9); z-index: 10000;
+    display: flex; align-items: center; justify-content: center;
+}
